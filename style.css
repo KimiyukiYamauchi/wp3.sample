@@ -3,3 +3,64 @@ Theme Name: Sample Theme
 Theme URI: http://www.www.www/
 Description: This is my sample theme.
 */
+
+/* 基本 */
+body{
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0c8bcd;
+}
+
+a img {
+	border: none;
+}
+
+/* container */
+div#container {
+	width: 900px;
+	margin: auto;
+}
+
+/* header */
+div#header {
+	font-family: 'Trebuchet MS', sans-serif;
+	margin-bottom: 20px;
+}
+
+div#header h1 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+div#header h1 a {
+	color: #000;
+}
+
+div#header div#desc {
+	font-size: 1em;
+	font-weight: bold;
+	color: #999999;
+	margin: 0 0 5px;
+}
+
+div#subinfo {
+	text-align: right;
+	margin: -32px 0 5px;
+}
+
+/* footer */
+div#footer {
+	border-top: solid 1px #aaaaaa;
+	padding: 6px 0;
+	clear: both;
+}
+
+div#footer p {
+	font-size: 0.75em;
+	font-style: normal;
+	font-family: Verdana, sans-serif;
+	margin: 0;
+}
