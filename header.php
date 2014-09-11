@@ -26,6 +26,6 @@ wp_nav_menu(array('theme_location' => 'navigation'));
 
 <?php if(get_header_image()): ?>
 <div id="image"><img src="<?php header_image(); ?>" alt="*" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" /></div>
-<? endif; ?>
+<?php endif; ?>
 
 </div><!-- #header -->
