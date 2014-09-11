@@ -51,6 +51,38 @@ div#subinfo {
 	margin: -32px 0 5px;
 }
 
+/* nav */
+div#nav {
+	font-size: 0.75em;
+	height: 30px;
+	background-color: #FFF;
+	border: solid 1px #aaaaaa;
+	margin-bottom: 8px;
+}
+
+div#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#nav li {
+	list-style-type: none;
+	float: left;
+}
+
+div#nav li a {
+	display: block;
+	width: 150px;
+	line-height: 30px;
+	border-right: solid 1px #aaaaaa;
+	color: #000;
+	text-align: center;
+}
+
+div#nav li a:hover {
+	background-color: #c4f254;
+}
+
 /* footer */
 div#footer {
 	border-top: solid 1px #aaaaaa;

@@ -14,6 +14,12 @@
 <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 <p id="desc"><?php bloginfo('description'); ?></p>
 
+<div id="nav">
+<?php
+wp_nav_menu(array('theme_location' => 'navigation'));
+?>
+</div>
+
 <div id="subinfo">
 <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('template_url'); ?>/feed.png" alt="RSS FEED" width="28" height="28" /></a>
 </div><!-- #subinfo -->
