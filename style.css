@@ -183,6 +183,47 @@ div.post p.postinfo {
 	padding-top: 5px;
 }
 
+/* sidebar */
+div#sidebar {
+	width: 300px;
+	float: right;
+}
+
+div#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#sidebar .widget{
+	margin-bottom: 20px;
+}
+
+div#sidebar h2 {
+	font-size: 0.75em;
+	color: #fff;
+	background-color: #aaaaaa;
+	border-radius: 3px;
+	padding: 2px 10px;
+	margin: 0;
+}
+
+div#sidebar li li {
+	font-size: 0.75em;
+	border-bottom: dotted 1px #aaaaaa;
+	margin: 0;
+}
+
+div#sidebar li li a {
+	color: #000;
+	display: block;
+	padding: 5px 10px;
+}
+
+div#sidebar li li a:hover {
+	background-color: #f7e29e;
+}
+
 /* footer */
 div#footer {
 	border-top: solid 1px #aaaaaa;
