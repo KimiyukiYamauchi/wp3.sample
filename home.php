@@ -10,4 +10,6 @@
   <?php get_template_part('pagenation'); ?>
 </div><!-- content -->
 
+<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

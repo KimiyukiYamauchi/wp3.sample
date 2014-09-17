@@ -14,3 +14,7 @@ define('HEADER_IMAGE', '%s/header_red.jpg');
 define('HEADER_IMAGE_WIDTH', 900);
 define('HEADER_IMAGE_HEIGHT', 228);
 
+// ウィジェット
+register_sidebar();
+
+
