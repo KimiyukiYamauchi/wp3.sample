@@ -83,6 +83,36 @@ div#nav li a:hover {
 	background-color: #c4f254;
 }
 
+/* content */
+div#content {
+	width: 550px;
+	float: left;
+}
+
+p.title {
+	font-weight: bold;
+	color: #585858;
+	width: 200px;
+	margin: 0 0 10px;
+	padding: 0 30px 0 10px;
+	background-image: url(bar.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+p.pagenation {
+	font-size: 0.75em;
+	overflow: hidden;
+}
+
+span.oldpage {
+	float: left;
+}
+
+span.newpage {
+	float: right;
+}
+
 /* post */
 div.post {
 	margin-bottom: 30px;
