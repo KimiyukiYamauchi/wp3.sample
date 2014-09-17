@@ -6,5 +6,7 @@
 </h2>
 <p class="postcat"><?php the_category(' '); ?></p>
 
+<?php the_post_thumbnail(); ?>
+
 <?php the_content(); ?>
 </div>
