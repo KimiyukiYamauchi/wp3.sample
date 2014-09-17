@@ -4,8 +4,10 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
+
+<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 
 <div id="container">
 

@@ -17,4 +17,13 @@ define('HEADER_IMAGE_HEIGHT', 228);
 // ウィジェット
 register_sidebar();
 
+// jQueryの設定を出力
+add_action('wp_head', 'myScript', 1);
+function myScript(){
+	wp_enqueue_script('jquery');
+}
+
+// アイキャッチ画像
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(550, 400, true);
 
