@@ -51,6 +51,13 @@ div#subinfo {
 	margin: -32px 0 5px;
 }
 
+/* slideshow */
+#slideshow {
+	width: 900px;
+	height: 228px;
+}
+
+
 /* nav */
 div#nav {
 	font-size: 0.75em;
