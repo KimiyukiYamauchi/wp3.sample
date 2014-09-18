@@ -21,6 +21,10 @@ register_sidebar();
 add_action('wp_head', 'myScript', 1);
 function myScript(){
 	wp_enqueue_script('jquery');
+
+	wp_enqueue_script('jquery.cross-slide.js', get_bloginfo('template_url') . '/jquery.cross-slide.js');
+
+
 }
 
 // アイキャッチ画像
