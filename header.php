@@ -27,11 +27,19 @@ wp_nav_menu(array('theme_location' => 'navigation'));
 </div>
 
 <?php if(get_header_image()): ?>
-
+<script>
+jQuery(function(){
+	jQuery('#slideshow').crossSlide({
+		sleep: 2,
+		fade: 1
+	},[
 <?php $headers = get_uploaded_header_images(); ?>
 <?php foreach ($headers as $key => $value): ?>
-<?php echo $value['url']. "<br />"; ?>
+			{ src: '<?php echo $value['url']; ?>' },
 <?php endforeach; ?>
+		])
+});
+</script>
 
 <div id="slideshow"></div>
 <?php endif; ?>
