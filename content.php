@@ -9,4 +9,8 @@
 <?php the_post_thumbnail(); ?>
 
 <?php the_content(); ?>
+
+<?php if(function_exists('related_posts')): ?>
+<?php related_posts(); ?>
+<?php endif; ?>
 </div>
