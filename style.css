@@ -183,6 +183,23 @@ div.post p.postinfo {
 	padding-top: 5px;
 }
 
+/* related post */
+div.related {
+	border: solid 1px #aaaaaa;
+	margin-top: 20px;
+}
+
+div.related p {
+	color: #fff;
+	background-color: #a7d043;
+	margin: 0;
+	padding-left: 10px;
+}
+
+div.related ol {
+	font-size: 0.75em;
+}
+
 /* sidebar */
 div#sidebar {
 	width: 300px;
